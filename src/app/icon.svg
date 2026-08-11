@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="logo-grad-light" x1="0" y1="0" x2="0" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="48" height="48" rx="11" fill="url(#logo-grad)"/>
+  <rect x="0" y="0" width="48" height="24" rx="11" fill="url(#logo-grad-light)" opacity="0.35"/>
+  <g>
+    <path d="M10 19 L24 13 L38 19 L24 25 Z" fill="#ffffff"/>
+    <path d="M16 21.5 L16 27 C16 28.5 19.6 30 24 30 C28.4 30 32 28.5 32 27 L32 21.5 L24 25 Z" fill="#e6fff5" opacity="0.95"/>
+    <path d="M38 19 L38 25" stroke="#fbbf24" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="38" cy="26.5" r="1.6" fill="#fbbf24"/>
+  </g>
+  <g>
+    <path d="M33 28 C29.5 28 27 30.4 27 33.4 C27 37.5 33 43 33 43 C33 43 39 37.5 39 33.4 C39 30.4 36.5 28 33 28 Z" fill="#ffffff" stroke="#047857" stroke-width="1.2"/>
+    <circle cx="33" cy="33.2" r="2.3" fill="#047857"/>
+  </g>
+</svg>
