@@ -79,7 +79,7 @@ http://localhost:3000
 | Database         | **SQLite** via **better-sqlite3**                   | Read-only, 45.6 MB, 229,359 rows |
 | PDF Parsing      | **pdftotext** + Python                              | Build-time only |
 | Package Manager  | **Bun** (or npm)                                    | `bun.lock` committed |
-| Deployment       | **Vercel** (or any Node host)                       | See [Deployment](#deployment) |
+| Deployment       | **Vercel** (or any Node host)                       | See [Deployment](#maharastra-colleges-list.vercel.app) |
 
 ---
 
@@ -410,7 +410,7 @@ python3 --version
 ### Rebuild student data
 
 ```bash
-# Place the new PDF at /home/z/my-project/upload/FE2026_PCMMH_MeritList_Final.pdf
+# Place the new PDF at /home/c/my-project/upload/FE2026_PCMMH_MeritList_Final.pdf
 # (or edit the PDF_PATH constant in the script)
 
 python3 scripts/build_students_db.py
@@ -428,7 +428,7 @@ Expected runtime: ~30 seconds (mostly `pdftotext`).
 ### Rebuild college data
 
 ```bash
-# Place the new cut-off PDF at /home/z/my-project/upload/CAP 1 MH.pdf
+# Place the new cut-off PDF at /home/c/my-project/upload/CAP 1 MH.pdf
 
 python3 scripts/extract_pdf.py
 ```
@@ -499,7 +499,7 @@ This is a single-maintainer project, but issues and pull requests are welcome.
 
 ```bash
 bun install
-bun run dev          # http://localhost:3000
+bun run dev          # https://localhost:3000
 # Make changes...
 bun run lint         # Check for issues
 bun run build        # Verify production build
